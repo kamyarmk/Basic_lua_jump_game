@@ -13,12 +13,12 @@ local gameStates = require "Components.GameStates"
 
 
 function love.load()
-    level.cunstruct_level(platforms)
+    level.constructor(platforms)
 end
 
 function love.update(dt)
     ball.update( dt )
-    level.update( dt )
+    level.update( dt)
     collisions.resolve_collisions(ball, platforms)
 end
 
