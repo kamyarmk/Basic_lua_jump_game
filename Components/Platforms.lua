@@ -1,8 +1,8 @@
 
 local platforms = {}
 platforms.position_x = 100
-platforms.position_y = -20
-platforms.speed_y = 200
+platforms.position_y = -100
+platforms.speed_y = 1000
 platforms.width = 70
 platforms.height = 20
 platforms.isChanged = false
